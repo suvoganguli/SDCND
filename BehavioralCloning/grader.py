@@ -78,7 +78,7 @@ def run_grader(model, history):
     feedback = result.get('feedback')
     comment = result.get('comment')
 
-    print(f"{feedback}\n{comment}\n")
+    print("{feedback}\n{comment}\n")
 
 if __name__ == "__main__":
     run_grader(model, history)
